@@ -1,0 +1,20 @@
+name: ShardShopBlock
+version: '${project.version}'
+main: dev.shardshopblock.ShardShopBlock
+api-version: '1.20'
+description: Right-click a registered Shulker Box to open the ShardShop.
+authors: [ShardSystem]
+
+softdepend:
+  - ShardSystem
+
+permissions:
+  shardshopblock.admin:
+    description: Register and unregister Shulker Box shop locations
+    default: op
+
+commands:
+  shopblock:
+    description: Register or unregister a Shulker Box as a ShardShop opener
+    usage: /shopblock <set|remove|list>
+    permission: shardshopblock.admin

@@ -1,0 +1,6 @@
+# ShardShopBlock Configuration
+# Registered Shulker Box locations (saved automatically)
+shop-blocks: []
+
+# Rotating END_ROD particle ring above the box
+show-particles: true
